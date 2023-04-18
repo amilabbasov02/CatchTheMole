@@ -105,7 +105,7 @@ moles.forEach( mole => {
     gameScore = 0;
     score.innerText = `Your Score is ${gameScore}`;
     show();
-    // setInterval(game_Timer,1000)
+    setInterval(game_Timer,1000)
     setTimeout(() => {
         game = false;
     }, 60000);
@@ -121,7 +121,7 @@ moles.forEach( mole => {
     gameScore = 0;
     score.innerText = `Your Score is ${gameScore}`;
     show();
-    setInterval(game_Timer,1000)
+    // setInterval(game_Timer,1000)
     setTimeout(() => {
         game = false;
     }, 60000);
